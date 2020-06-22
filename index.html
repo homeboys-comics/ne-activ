@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEBOY'S COMICS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img width="255" src="img/logo.png" alt="Logo: homeboys" class="logo">
+        <nav class="navigation">
+            <a href="index.html" class="navigation-link">ГЛАВНАЯ</a>
+            <a href="#" onclick="comics_button_first()" class="navigation-link">МИНИ-КОМИКСЫ</a>
+            <a href="#" onclick="comics_button_first()" class="navigation-link">КОМИКСЫ</a>
+            <a href="https://vk.com/comicshomeboy" id="grup" class="navigation-link">ГРУППА ВКОНТАКТЕ</a>
+        </nav>
+    </header>
+    <div class="info">
+        <div class="container">
+            <div class="info-logo"><img src="img/secondlogo.png" alt="Logo: secondlogo"></div>
+            <div class="info-text">
+                <p width="314" height="22" id="first-info-text">Сообщество, что рисует комиксы.</p>
+                <p width="334" height="22" id="second-info-text">исключительно хобби и увлечение :)</p>
+            </div>
+            <div class="info-characters">
+                <img width="98" height="264" src="img/firstcharacter.png" alt="Character: first-character" class="first-character">
+                <img width="117" height="260" src="img/secondcharacter.png" alt="Character: second-character" class="second-character">
+            </div>
+            </div>
+        </div>
+        <div class="comics">
+            <div class="container">
+                <div class="comics_button">
+                <a href="#" onclick="comics_button_second()" class="button">ИНФОРМАЦИЯ О КОМИКСЕ</a>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <img src="img/logo.png" alt="Logo: footer-logo" class="foot-logo">
+            <nav class="footer-navigation">
+                <a href="index.html" class="footer-navigation-link">ГЛАВНАЯ</a>
+                <a href="#" onclick="comics_button_first()" class="footer-navigation-link">МИНИ-КОМИКСЫ</a>
+                <a href="#" onclick="comics_button_first()" class="footer-navigation-link">КОМИКСЫ</a>
+                <a id="grup" href="https://vk.com/comicshomeboy" class="footer-navigation-link">ГРУППА ВКОНТАКТЕ</a>
+            </nav>
+        </footer>
+</body>
+</html>
